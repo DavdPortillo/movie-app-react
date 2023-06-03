@@ -1,6 +1,6 @@
 
 export const getMovies = async (categories = "Interstellar") => {
-    const url = `https://www.omdbapi.com/?apikey=2835fbb4&s=${categories}`
+    const url = `http://www.omdbapi.com/?apikey=2835fbb4&s=${categories}`
     const response = await fetch(url);
     const { Search } = await response.json();
 
