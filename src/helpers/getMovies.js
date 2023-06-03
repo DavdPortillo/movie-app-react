@@ -1,6 +1,6 @@
 
 
-const apikey = 'http://www.omdbapi.com/?apikey=2835fbb4&s=matrix'
+const apikey = 'https://www.omdbapi.com/?apikey=2835fbb4&s=matrix'
 
 
 export const getMovies = async (categories = "Interstellar") => {
