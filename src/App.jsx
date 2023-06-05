@@ -4,8 +4,8 @@ import { useState } from "react"
 import './app.css'
 
 export const App = () => {
-  const [movie, setMovie] = useState("");
 
+  const [movie, setMovie] = useState("");
   const addMovie = (newMovie) => {
     setMovie(newMovie);
   }
